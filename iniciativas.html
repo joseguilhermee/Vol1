@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iniciativas.css">
+    <link rel="sortcut icon" href="img/logo.png">
+    <title>iniciativas</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="index.html">VOLTAR</a></li>
+        
+      </ul>
+      
+    </nav>
+  </header>
+  <div class="ghost"></div>
+  <div class="background">
+    <img src="img/nave.gif" alt="">
+  </div>
+    <main>
+        <h1>História do Front-End</h1>
+        <p> Nessa parte pretendo construir bons fundamentos, porque acredito que o melhor lugar para começar algo é no começo, então começa aqui a longa história do Front-End. <br> A história do Front-End é a própria história da web, e a estrutura mais simples que podemos ter é que quando abrimos um navegador e escrevemos algum endereço por exemplo "https.//volumeum.com.br",  entre as várias operações que o navegador faz, ele precisa traduzir o "https.//volumeum.com.br" em um endereço IP, por exemplo (121.252.4.25) e quem faz esse trabalho inicial é o servidor de DNS (<i>Domain Name Sever</i>) sendo para onde sua configuração de rede do computador aponta. Dns é como uma linha telefonia que traduz nomes para números. <br> Agora é tarefa da rede conectar seu navegador ao roteador, enfim, o endereço completo que você digita no navegador chama URL <i>(Universal Resource Locator)</i> composto pelo protocolo, dominio e caminho de um arquivo, então antigamente é fácil ver endereço como esses <i>"https://volumeum.edu/~joseguilherme/index.html"</i> sendo o "~" um atalho para o diretório para da máquina do José Guilherme, e é assim que você faz um servidor web simples, alguém enviando um arquivo na rede aonde coloca sua URL e alguém a acessando recebendo esse arquivo.<br> Oque definitivamente não é muito seguro, já que se ele traduz a URL direto para arquivos no seu sistema operacional alguém poderia ficar tentando achar maneiras de ver todos os arquivos do usuário mesmo oque não tinha pretenção de ser levado a público.<br><br> Ok, agora quando o navegador recebe o arquivo .html ele tenta achar as marcações que usamos para fazer elas virarem elementos visuais, algumas marcações bem simples como exemplo são "h1 (titulo)", "ul (lista)", "li (itens da lista)", "a (link externos ou internos)" e assim por diante, mas o grande diferencial foi a tag <i>"a href"</i> que possibilitou que existissem textos que levam a mais textos, nessa época ninguém ligava muito para visual, apenas queriam textos lincando a mais textos, e assim nasce a "WWW" <i>(Internet and World Wide Web)</i>, até que alguém pensou em invés de um link, porque não colocar um .exe, então quando o primeiro navegador que poderia interpretar um .exe foi feito nasce novas linguagem adaptada para manipular cadeias de texto ou strings, a <a href="https://pt.wikipedia.org/wiki/Perl"><b>PERL</b></a> que logo se tornou a principal linguagem para fazer CGIs, e sua sub linguagem (Não sei porque seria chamada sub-linguagem) a REGEX foi essencial para manipular strings. <br> Enfim, nessa época todas as paginas antigas tinham o mesmo estilo padrão, fundos brancos ou cinzas, links azuis, fonte TIMES e listas com bolinhas na frente, como pode testar vendo aqui <a href="https://www.techtudo.com.br/dicas-e-tutoriais/noticia/2013/12/como-visualizar-versoes-antigas-de-sites-e-encontrar-paginas-fora-do-ar.html">WayBackMachine</a>. Até poderia mudar alguma coisinha com o comando style no HTML, mas só começou a dar importância maior para o design quando surgiu o <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><b>CSS</b></a>. Com isso a internet EXPLORER saiu na frente já que tinha uma melhor interação com o CSS, então começou a Guerra dos navegadores, de um lado microsoft e do outro a netscape com cada versão de um navegador tentando ser melhor principalmente na parte do css e interação. Na mesma época a netscap mudou seu modelo de negócio e virou a fundação mozilla, com o nascimento do navegador Opera que fez o primeiro uso de "<i>Media Types</i>" que evoluiria para ser o @media e se tornaria oficial apenas no CSS3 em 2012, mas os primeiros rascunhos datam pelo menos em 1997, o @media serve para perguntar ao navegador que categoria de dispositivo está sendo usado, posso dar o exemplo nesse site, que usamos o <b>@media (max-width: 800px){}</b>. <br><br> Encerando essa briga, temos o File Explorer mesclado ao Internet Explorer que possibilitava explorar os arquivos da máquina ou os arquivos na web, hoje em dia todos os navegadores de arquivos usam <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Basics_of_HTTP/MIME_types">MIME types</a>, então microsoft fez uma prática monopolista que forçar as pessoas usarem Internet Explorer, e isso deu um grande problema judicial na época. Enfim, nesse tempo melhoramos o design dos sites e, em simultâneo, começava a nascer a profissão de web designers <i>Meu Primeiro trabalho</i>, principalmente viram de revista e tentavam entender como traduzir a linguagem visual de revistas para o design de WEB, e nessa época saímos das coisas sem graça de tela cinza para um show bizarro de cores, dado que agora poderíamos ter acesso a ferramentas como Banco de dados, entraríamos a possibilidade de Aplicações Web em vez de só sites web, sendo aplicações um site que executa funções, como, por exemplo e-commerc que o usuário pode gravar seu cartão de crédito e enviar para o banco de dados do servidor e etc... e no meio disso tudo surge o famoso <a href="https://pt.wikipedia.org/wiki/PHP">PHP</a>, que consegue entender lógica de programação, e como tudo é interligado logo surgiu o <a href="https://www.java.com/pt-BR/">JAVA</a> e também outra categoria de servidores web chamada servidores de aplicação, que também marca o início da famosa BOLHA DA Internet no fim dos anos 90. <br><br> Com a entrada de programadores mais experientes do que designers fazendo HTML, tecnologias que permitiam trafego de informações como o SSL da Netscape nasceram, assim como a chegada do <a href="https://pt.wikipedia.org/wiki/WordPress">WordPress</a>, gmail, HTML versão 4, AJAX JavaScript e etc... <br><br> Agora indo para época do Windowns XP e Explorer 6 alguém pensou, porque não criar um framework via JavaScript então surgiu o famoso <a href="https://jquery.com">Jquery</a>, lembrando estar surgindo o primeiro IPhone com o navegador Safari, surgimento do Flash com animações realmente muito legais, e além disso flash possibilitava fazer jogos simples. <br> Em 2019 o processador de um Iphone <i>A12 BIONIC</i> é tão potente quanto um processador Intel Core em um Mackbook PRO, falando em apple, Steve Jobs escreveu uma carta publicamente falando que o Flash era uma porcaria e assim decretando que não seria utilizado nada em produtos Apple. Agora sem o Flash surge coisas como o atual Canvas controlado por CSS e WebGL. <br> Um tempo com o surgimento do google chrome em 2008 começaram a implementar HTML:5 + CSS3 + JavaScript e ficamos entre 2008 e 2015. <br><br> Os Smartphones obrigaram todos criar uma nova ferramenta chamada design responsivo, que se adequá automaticamente ao tamanho da tela, junto a isso foi criado o <a href="https://www.ironhack.com/br/desenho-ux-ui/afinal-o-que-e-ux-design-a-evolucao-do-web-design">UX Design</a> que se preocupa com a experiência do usuário, um exemplo disso é esse fundo dark, pensado para cansar menos a vista de quem lê. Nessa brincadeira também surgiu o <a href="https://getbootstrap.com">Bootstrap.</a>  que é uma biblioteca para não precisar ficar fazendo o mesmo botão por exemplo. E nesse momento, com todas essas tecnologias. <br> Dando outro pequeno salto temporal, surgiu alguns frameworks como <a href="https://vuejs.org">Vue</a>, <a href="https://pt-br.reactjs.org">React</a> e <a href="https://angular.io">ANGULAR.</a>
+
+
+        </p>
+        <h1>História do Back-End</h1>
+        <p> Em construção 
+        </p>
+
+
+        <h1>GIT & GitHub </h1>
+
+        <h1>Em construção... </h1>
+
+    </main>
+
+
+
+
+
+      <script src="mobile-navbar.js"></script>
+</body>
+</html>

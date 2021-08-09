@@ -1,0 +1,74 @@
+@font-face {
+    font-family: medium;
+    src: url(ubuntu/Ubuntu-Medium.ttf);
+}
+:root {
+  --titulo: #4717F6;
+  }
+* {
+    font-family: medium;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #fdfffc;
+    margin: 10% 0px 0px 0px;
+    
+}
+img {
+    width: 50%;
+    margin-left: 25px;
+}
+.aviso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aviso a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.texto {
+    font-size: 30px;
+    color: #eb5e28;
+    margin: 8
+    0px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #eb5e28;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: solid #eb5e28 3px;
+    border-radius: 20px 0px 20px 0px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+a:hover {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+    background-color: #eb5e28;
+    border: solid #eb5f2800 3px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+@media (max-width: 800px) {
+    .aviso {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 350px;
+        margin-top: 20px;
+    }
+}

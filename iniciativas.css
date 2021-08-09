@@ -1,0 +1,133 @@
+@font-face {
+    font-family: medium;
+    src: url(ubuntu/Ubuntu-Medium.ttf);
+}
+:root {
+  --titulo: #4717F6;
+  }
+* {
+    font-family: medium;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+    background: #210ca5;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+a:hover {
+    opacity: 0.7;
+  }
+p {
+  line-height: 25px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #020205;
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+  }
+.nav-list {
+    list-style: none;
+    display: flex;
+  }
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+html {
+    background-color: #0E0B16;
+
+}
+.ghost {
+    height: 50px;
+}
+
+
+h1 {
+    color: #ff533d;
+    font-size: 20px;
+    margin: 5% 20% 0px 20%;
+
+}
+p {
+    margin: 2% 20% 0px 20%;
+    color: rgb(237, 237, 237);
+    background-color: #060509;
+    padding: 10px;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        color: #ff533d;
+        font-size: 20px;
+        margin: 5% 5% 0px 5%;
+    
+    }
+    p {
+        margin: 5% 5% 0px 5%;
+        color: rgb(237, 237, 237);
+    }
+}
+
+
+
+.background img {
+  width: 100%;
+  max-height: 700px;
+}
+
+.orange {
+  color: #ff533d;
+}
+
+main a {
+  color: #ff533d;
+}
